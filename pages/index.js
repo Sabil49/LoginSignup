@@ -49,10 +49,10 @@ export default function App(props) {
     const userIndex = users.filter((user) => user.email === logindata.loginEmail);
   console.log(userIndex[0]);
   if(userIndex!=""){      
-      console.log("user has been found");
+      console.log("user has been founded");
   }
   else{
-    console.log("user has not been found");
+    console.log("user has not been founded");
   }
  }
   catch(error){
